@@ -6,6 +6,7 @@ const {
     EmbedBuilder,
     Colors,
 } = require('discord.js');
+const emojis = require("../../configs/emojis.json"); 
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -20,7 +21,7 @@ module.exports = {
 
     async execute(interaction, client) {
         interaction.reply({
-            ephemeral: true,
+            flags: "Ephemeral",
             content: `Calculating Status.`,
         });
 
@@ -43,11 +44,11 @@ module.exports = {
             let e;
 
             if (websocket_speed <= 185) {
-                e = `🟢`;
+                e = `${emojis.connection_high}`;
               } else if (client.ws.ping <= 250) {
-                e = `🟡`;
+                e = `${emojis.conneciton_medium}`;
               } else {
-                e = `🔴`;
+                e = `${emojis.connection_low}`;
               }
 
             interaction.editReply({

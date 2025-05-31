@@ -1,0 +1,5 @@
+{
+  "connection_high": "🟢", 
+  "conneciton_medium": "🟡",
+  "connection_low": "🔴"
+}
