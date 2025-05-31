@@ -11,6 +11,6 @@ Inside the **.env** file, there is a **TOKEN** variable, which is where you will
 
 ### Emojis Configuration
 Inside the **emojis** file, there are a default emojis for the status command, you can add and remove as many variables from the **emojis.json** file in accordance to your needs. But remember to take a look at how it is used in the **status.js** file. 
----
+
 ## References
 - This project has utilised a command & event handler designed by [Lyxcode](https://www.youtube.com/@Lyx), please go check out his YouTube channel. 
