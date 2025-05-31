@@ -3,7 +3,7 @@ Made by Owen Howkins
 
 ## Configs
 There are 2 config files, one is the **.env** file and the other in the "configs" folder for the emojis. You are free to add as many config files as you want in accordance to the project and what you need. However, make sure you keep the **.env** file. 
----
+
 ### .env Configuration
 Inside the **.env** file, there is a **TOKEN** variable, which is where you will place your Discord Bot's token. After you have done that it should look similar to this below. 
 ![alt text](/readmeImages/tokenImage.png)
